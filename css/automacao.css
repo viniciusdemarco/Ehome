@@ -29,6 +29,8 @@ h3{
 .head{
     text-align: center;
     font-size: 30px;
+    width: 100%;
+    border-radius: 20px;
 }
 .imgpc{
     width: 100%;
