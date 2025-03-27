@@ -2,9 +2,9 @@
     "name": "EHome111",
     "short_name": "EHome222",
     "start_url": "https://viniciusdemarco.github.io/Ehome/",
-    "display": "standalone",
+    "display": "fullscreen",
     "background_color": "#ffffff",
-    "theme_color": "#000000",
+    "theme_color": "#80808080",
     "icons": [
       {
         "src": "../image/index/favicon.png",
