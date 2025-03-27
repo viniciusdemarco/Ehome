@@ -91,6 +91,11 @@ main{
     background-color: #F27244;
 }
 @media (max-width: 932px){
+    body{
+        margin:0;
+        padding:0;
+        border:0;
+    }
     main{
         margin-top: 7em;
         width: 90%;

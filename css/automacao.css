@@ -83,6 +83,7 @@ h3{
 }
 @media (max-width: 932px){
     main{
+        margin-top: 7em;
         width: 100%;
         border-radius: 0;
     }
