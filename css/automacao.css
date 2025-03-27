@@ -93,7 +93,7 @@ h3{
         border-radius: 0;
     }
     .imgalternativa img{
-        display: block;
+        display: flex;
     }
     .vantagens, .motivo, .dicas,  .dispositivo, .interruptor, .fechadura, .irrigacao, .piscina{
         flex-direction: column;
