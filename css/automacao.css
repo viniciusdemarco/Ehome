@@ -30,7 +30,7 @@ h3{
     text-align: center;
     font-size: 30px;
 }
-.imgpc{
+.imgpc img{
     width: 100%;
     border-radius: 20px;
 }
@@ -87,7 +87,7 @@ h3{
         width: 100%;
         border-radius: 0;
     }
-    .imgpc{
+    .imgpc img{
         display: none;
     }
     .head img{
