@@ -12,7 +12,7 @@ main{
     display: flex;
     flex-direction: column;
     border-radius: 30px;
-    color: #213740;
+    color: #2b2b2b;
 }
 h1, h2{
     font-size: 40px;
@@ -22,6 +22,7 @@ h1{
 }
 .head{
     text-align: center;
+    font-size: 30px;
 }
 .head img{
     width: 100%;
