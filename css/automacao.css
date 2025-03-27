@@ -30,7 +30,7 @@ h3{
     text-align: center;
     font-size: 30px;
 }
-.imgpc img{
+.imgpc{
     width: 100%;
     border-radius: 20px;
 }
@@ -78,7 +78,7 @@ h3{
     margin: auto;
     border-radius: 20px;
 }
-.imgalternativa img{
+.imgalternativa{
     display: none;
 }
 @media (max-width: 932px){
@@ -87,14 +87,14 @@ h3{
         width: 100%;
         border-radius: 0;
     }
-    .imgpc img{
+    .imgpc{
         display: none;
     }
     .head img{
         width: 100%;
         border-radius: 0;
     }
-    .imgalternativa img{
+    .imgalternativa{
         display: block;
     }
     .vantagens, .motivo, .dicas,  .dispositivo, .interruptor, .fechadura, .irrigacao, .piscina{
