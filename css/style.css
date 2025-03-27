@@ -187,12 +187,18 @@ header{
     text-align: center;
 }
 /*mobile*/
-@media (max-width: 932px) {
+@media (max-width: 932px){
+    main{
+        margin-top: 7em;
+    }
     .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4, .rodape-div-5{
         width: calc(50% - 20px);
         height: fit-content;
     }
     header{
+        position: fixed;
+        top: 0;
+        left: 0;
         width: 100%;
         border-radius: 0;
     }
