@@ -12,19 +12,24 @@ a {
     color: inherit; 
     text-decoration: none;
 }
+.esquerda{
+    width: 50%;
+}
 .esquerda img{
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
 }
 .direita{
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .imgtopo{
     width: 100%;
-   
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .links{
     background-color: #EBEBEB;
@@ -57,5 +62,24 @@ a {
 }
 .imglinha{
     width: 100%;
-    border-radius: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+@media (max-width: 932px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .esquerda, .direita{
+        width: 100%;
+    }
+    .texto{
+        font-size: 10px;
+    }
+    .ecomptech{
+        height: 4em;
+    } 
+    .icons img{
+        height: 2em;
+    }
 }

@@ -14,11 +14,11 @@ main{
     border-radius: 30px;
     color: #2b2b2b;
 }
-h1, h2{
-    font-size: 40px;
+h2{
+    font-size: 50px;
 }
-h1{
-    font-size: 90px;
+h3{
+    font-size: 30px;
 }
 .head{
     text-align: center;
@@ -53,7 +53,7 @@ h1{
     text-align: center;
     margin: 10px;
     width: 50%;
-    font-size: 40px;
+    font-size: 30px;
 }
 .dispositivotexto{
     width: 50%;
@@ -71,4 +71,28 @@ h1{
     height: 100%;
     margin: auto;
     border-radius: 20px;
+}
+@media (max-width: 932px){
+    main{
+        width: 100%;
+        margin-top: 0;
+        border-radius: 0;
+    }
+    .head img{
+        border-radius: 0;
+    }
+    .vantagens, .motivo, .dicas,  .dispositivo, .interruptor, .fechadura, .irrigacao, .piscina{
+        flex-direction: column;
+    }
+    .vantagenstexto, .motivotexto, .dicastexto, .dispositivotexto, .interruptortexto, .fechaduratexto, .irrigacaotexto, .piscinatexto{
+        width: 100%;
+        display: flex;
+    }
+    .vantagensimg, .motivoimg, .dicasimg, .dispositivoimg, .interruptorimg, .fechaduraimg, .irrigacaoimg, .piscinaimg{
+        width: 100%;
+        height: auto;
+    }
+    .motivo, .dispositivo, .fechadura, .piscina{
+        flex-direction: column-reverse;
+    }
 }

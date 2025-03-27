@@ -3,7 +3,6 @@
 main{
     width: 80%;
     height: auto;
-    margin-left: 10%;
     color: #2b2b2b;
     background-color: #ebebeb;
     border-radius: 10px;
@@ -15,4 +14,9 @@ main ol li{
 main ol li a{
     text-decoration: none;
     color: #2b2b2b;
+}
+@media (max-width: 932px){
+    main{
+        width: 90%;
+    }
 }

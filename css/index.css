@@ -86,7 +86,7 @@ main{
     color: black;
     background-color: #F27244;
 }
-@media (max-width: 896px){
+@media (max-width: 932px){
     .ecomp, .automacao {
         flex-direction: column;
     }
