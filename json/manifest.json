@@ -1,10 +1,10 @@
 {
-    "name": "EHome111",
-    "short_name": "EHome222",
+    "name": "EcompTech",
+    "short_name": "ECOMP",
     "start_url": "https://viniciusdemarco.github.io/Ehome/",
-    "display": "fullscreen",
+    "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#80808080",
+    "theme_color": "#2b2b2b",
     "icons": [
       {
         "src": "../image/index/favicon.png",
