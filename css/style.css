@@ -23,7 +23,7 @@ header{
     height: 7em;
     border-radius: 10px;
 }
-.dropbtn{
+.dropdown img{
     display: none;
 }
 .menuimg{
@@ -219,8 +219,9 @@ header{
         padding-right: 50px;
         height: 5em;
     }
-    .dropbtn{
+    .dropdown img{
         display: block;
         height: 5em;
     }
+
 }
