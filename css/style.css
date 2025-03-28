@@ -23,7 +23,7 @@ header{
     height: 7em;
     border-radius: 10px;
 }
-.menuoculto{
+.dropdown{
     display: none;
 }
 .menuimg{
@@ -219,8 +219,10 @@ header{
         padding-right: 50px;
         height: 5em;
     }
-    .menuoculto{
+    .dropdown{
         display: block;
+    }
+    .dropdown img{
         height: 5em;
     }
 }

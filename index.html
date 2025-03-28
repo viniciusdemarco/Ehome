@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menumobile.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="image/index/favicon.png" type="image/x-icon">
@@ -13,7 +14,18 @@
 <body>
     <header>
         <div class="menu">
-            <img src="image/index/menu.png" alt="" class="menuoculto">
+            <!-----------MENU DO DISPOSITIVO MOBILE-------------------->
+            <div class="dropdown">
+                <img src="image/index/menu.png" alt="" onclick="myFunction()" class="dropbtn">
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Início</a>
+                    <a href="view/automação.html">Automação</a>
+                    
+                    <a href="view/sobre.html">Sobre</a>
+                    <a href="view/privacidade.html">Política de Privacidade</a>
+                </div>
+            </div>
+            <!-----------MENU PADRÃO-------------------->
             <a href="index.html"><button class="menubutton">Página Inicial</button></a>
             <a href="view/automação.html"><button class="menubutton">Automação</button></a>
             <div class="menucontact">
@@ -107,5 +119,9 @@
         </div>
         <p class="rodape-direitos">Copyright © 2025 – Todos os Direitos Reservados.</p>
     </footer>
+
+
+    <script type="text/javascript" src="js/menumobile.js"></script>
+
 </body>
 </html>
