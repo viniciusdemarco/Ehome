@@ -22,6 +22,8 @@ header{
     width: 80%;
     height: 7em;
     border-radius: 10px;
+    position: fixed;
+    z-index: 99;
 }
 .dropdown img{
     display: none;
@@ -50,7 +52,7 @@ header{
     display: inline-block;
     position: relative;
     justify-content: flex-end;
-    
+
 }
 .setamenudown{
     border: solid white;
@@ -188,6 +190,7 @@ header{
     margin: 0;
     text-align: center;
 }
+
 /*mobile*/
 @media (max-width: 932px){
     main{
@@ -223,5 +226,5 @@ header{
         display: block;
         height: 5em;
     }
-
+    
 }
