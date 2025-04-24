@@ -22,8 +22,6 @@ header{
     width: 80%;
     height: 7em;
     border-radius: 10px;
-    position: fixed;
-    z-index: 99;
 }
 .dropdown img{
     display: none;
@@ -206,6 +204,7 @@ header{
         left: 0;
         width: 100vw;
         border-radius: 0;
+        z-index: 99;
     }
     .menu{
         width: 50%;
