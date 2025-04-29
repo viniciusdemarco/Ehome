@@ -83,7 +83,7 @@ h3{
 }
 
 @media (max-width: 932px){
-    body, h3{
+    h3{
         font-size: 18px;
     }
     h2{
@@ -93,6 +93,7 @@ h3{
         margin-top: 7em;
         width: 98%;
         border-radius: 0;
+        font-size: 18px;
     }
     .imgpc{
         display: none;
