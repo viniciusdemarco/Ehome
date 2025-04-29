@@ -24,4 +24,7 @@ main ol li a{
     main{
         width: 90%;
     }
+    main ol li{
+        font-size: 16px;
+    }
 }

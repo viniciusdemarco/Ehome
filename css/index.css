@@ -31,7 +31,7 @@ main{
     color: #2b2b2b;
     width: 50%;
     height: auto;
-    font-size: 30px;
+    font-size: 24px;
     display: flex;
     flex-direction: column;  
     align-items: center;
@@ -74,7 +74,7 @@ main{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
 }
 .automacaotext button{
@@ -107,6 +107,7 @@ main{
     .ecomptext, .automacaotext{
         width: 100%;
         display: flex;
+        font-size: 18px;
     }
     .ecompimg, .automacaoimg{
         width: 100%;
