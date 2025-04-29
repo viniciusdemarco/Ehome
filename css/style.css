@@ -190,7 +190,13 @@ header{
     margin: 0;
     text-align: center;
 }
-
+#paginaAtual{
+    background-color: #F27244;
+    border-radius: 20px;
+}
+#paginaAtual:hover{
+    color: #2b2b2b;
+}
 /*mobile*/
 @media (max-width: 932px){
     main{
