@@ -46,7 +46,6 @@ main{
     border: none;
     width: auto;
     margin: auto;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
 .ecomptext button:hover{
@@ -86,7 +85,6 @@ main{
     border: none;
     width: auto;
     margin: auto;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .automacaotext button:hover{
     color: black;
