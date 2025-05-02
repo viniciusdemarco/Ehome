@@ -49,8 +49,8 @@ header{
     height: 7em;
     border-radius: 10px;
 }
-.menucontact {
-    display: inline-block;
+.menudrop {
+    display: block;
     position: relative;
     justify-content: flex-end;
 }
@@ -75,7 +75,7 @@ header{
 .menubutton:hover{
     color: #F27244;
 }
-.submenucontact{
+.submenudrop{
     display: none;
     position: absolute;
     background-color: #2b2b2b;
@@ -86,7 +86,7 @@ header{
     margin: auto;
     overflow: hidden;
 }
-.submenucontact a{
+.submenudrop a{
     display: block;
     color: white;
     padding: 20px;
@@ -99,10 +99,10 @@ header{
     transition: 0.7s all;
     margin-top: 0;
 }
-.submenucontact a:hover{
+.submenudrop a:hover{
     background-color: #F27244;
 }
-.menucontact:hover .submenucontact{
+.menudrop:hover .submenudrop{
     display: block;
     border: 1px;
 }
@@ -172,6 +172,14 @@ header{
     flex-direction: column;
     font-size: 20px;
     text-decoration: none;
+}
+.rodape-div-4-coluna-text{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.rodape-div-4-coluna-text a{
+    width: 50%;
 }
 .rodape-div-5-coluna{
     padding-bottom: 60px;
