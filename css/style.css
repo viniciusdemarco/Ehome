@@ -204,6 +204,9 @@ header{
 }
 /*mobile*/
 @media (max-width: 932px){
+    body{
+        font-size: 18px;
+    }
     main{
         margin-top: 7em;
     }

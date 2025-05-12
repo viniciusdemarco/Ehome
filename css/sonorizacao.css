@@ -58,3 +58,19 @@ main{
 .buttonOrcamento:hover{
     transform: scale(1.1);
 }
+
+@media (max-width: 932px){
+    main{
+        font-size: 18px;
+        width: 98%;
+    }
+    .slide2{
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+    }
+    .buttonOrcamento{
+        font-size: 20px;
+    }
+}

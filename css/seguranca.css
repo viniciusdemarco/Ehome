@@ -3,6 +3,7 @@ body{
     margin:0;
     padding:0;
     border:0;
+   
 }
 main{
     background-color: #EBEBEB;
@@ -61,4 +62,18 @@ main{
 
 .img{
     width: 50%;
+}
+
+/*mobile*/
+@media (max-width: 932px){
+    main{
+        font-size: 18px;
+        width: 98%;
+    }
+    .img{
+        width: 100%;
+    }
+    .buttonOrcamento{
+        font-size: 20px;
+    }
 }
