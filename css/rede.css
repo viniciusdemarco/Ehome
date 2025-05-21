@@ -16,6 +16,7 @@ main{
     justify-content: center;
     text-align: center;
     align-items: center;
+    
 }
 .header{
     width: 100%;
@@ -34,7 +35,7 @@ main{
 .headerimg img{
     margin-top: 30px;
     width: 30%;
-    
+    border-radius: 20px;
 }
 .headertext{
     text-align: center;
@@ -48,6 +49,7 @@ main{
 }
 .slide2 img{
     width: 100%;
+    border-radius: 20px;
 }
 .buttonOrcamento{
     background-color: green;
