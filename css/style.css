@@ -25,6 +25,8 @@ header{
     height: 7em;
     border-radius: 10px;
     margin-bottom: 5px;
+    position: fixed;
+    z-index: 99;
 }
 .dropdown img{
     display: none;
@@ -108,7 +110,7 @@ header{
 }
 .rodape{
     position: relative;
-    background-color: #F27244;
+    background-color: #213740;
     color: white;
     width: 100%;
     font-size: 14px;

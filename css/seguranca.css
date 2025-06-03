@@ -17,6 +17,7 @@ main{
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-top: 5em;
 }
 .header{
     width: 100%;
@@ -69,6 +70,7 @@ main{
     main{
         font-size: 18px;
         width: 98%;
+        margin-top: 7.5em;
     }
     .img{
         width: 100%;
