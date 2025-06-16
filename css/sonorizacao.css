@@ -49,17 +49,6 @@ main{
 .slide2 img{
     width: 100%;
 }
-.buttonOrcamento{
-    background-color: green;
-    color: white;
-    font-family: 'Roboto';
-    border-radius: 50px;
-    font-size: 30px;
-}
-.buttonOrcamento:hover{
-    transform: scale(1.1);
-}
-
 @media (max-width: 932px){
     main{
         font-size: 18px;

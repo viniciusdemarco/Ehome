@@ -82,7 +82,7 @@ header{
     position: absolute;
     background-color: #2b2b2b;
     list-style-type: none;
-    width: 200px;
+    width: auto;
     height: auto;
     border-radius: 10px;
     margin: auto;
@@ -108,6 +108,17 @@ header{
     display: block;
     border: 1px;
 }
+.buttonOrcamento{
+    background-color: green;
+    color: white;
+    font-family: 'Roboto';
+    border-radius: 50px;
+    font-size: 30px;
+}
+.buttonOrcamento:hover{
+    transform: scale(1.1);
+}
+
 .rodape{
     position: relative;
     background-color: #213740;
@@ -129,9 +140,10 @@ header{
 .rodape-div{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width:100%;
     margin: auto;
-    align-items: stretch;
+    align-items: start;
     padding: 10px 10px 0px 10px;
 }
 .rodape-div-1-coluna img{
@@ -174,11 +186,6 @@ header{
     flex-direction: column;
     font-size: 20px;
     text-decoration: none;
-}
-.rodape-div-4-coluna-text{
-    display: flex;
-    flex-wrap: wrap;
-    
 }
 .rodape-div-4-coluna-text a{
     width: 50%;
@@ -248,5 +255,8 @@ img{
     .dropdown img{
         display: block;
         height: 5em;
+    }
+    .buttonOrcamento{
+        font-size: 20px;
     }
 }
