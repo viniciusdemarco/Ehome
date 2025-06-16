@@ -118,7 +118,24 @@ header{
 .buttonOrcamento:hover{
     transform: scale(1.1);
 }
-
+.wppbutton{
+    position: fixed;
+    cursor: pointer;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+}
+.wppbutton:hover{
+    transform: scale(1.1);
+}
+.wppbutton a{
+    display: block;
+}
+.wppbutton img{
+    border-radius: 50%;
+    width: 60px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
 .rodape{
     position: relative;
     background-color: #213740;
