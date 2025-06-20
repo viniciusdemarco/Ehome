@@ -91,6 +91,21 @@ main{
     color: black;
     background-color: #F27244;
 }
+.galeriavideos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 50px;
+}
+.galeriavideos video{
+    max-width: 95%;
+    border-radius: 20px;
+}
+.galeriavideos video:hover{
+    transform: scale(1.1);
+}
 @media (max-width: 932px){
     body{
         margin:0;
@@ -112,5 +127,12 @@ main{
     .ecompimg, .automacaoimg{
         width: 100%;
         height: auto;
+    }
+    .galeriavideos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .galeriavideos video{
+        max-width: 100%;
     }
 }
