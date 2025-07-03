@@ -190,6 +190,7 @@ header{
     align-items: start;
 }
 .rodape-div-2-coluna-img img{
+    padding-top: 2px;
     width: 3em;
 }
 .rodape-div-2-coluna-img{
@@ -250,6 +251,12 @@ img{
         width: calc(50% - 20px);
         height: fit-content;
     }
+    .rodape-div-2-coluna-text p{
+        font-size: 85%;
+    }
+    .rodape-div-2-coluna-img img{
+        width: 98%;
+    }
     header{
         position: fixed;
         top: 0;
@@ -286,5 +293,7 @@ img{
     .wppbutton{
         bottom: 40px;
     }
-    
+    .wppbutton img{
+        width: 70px;
+    }
 }
