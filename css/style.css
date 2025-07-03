@@ -230,6 +230,14 @@ header{
 img{
     border-radius: 20px;
 }
+.fade-in {
+    opacity: 0; /* Começa invisível */
+    transition: opacity 1s ease-in-out; /* Duração e tipo de transição */
+  }
+  
+  .fade-in.active {
+    opacity: 1; /* Torna a imagem visível */
+  }
 /*mobile*/
 @media (max-width: 932px){
     body{
