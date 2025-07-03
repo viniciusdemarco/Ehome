@@ -187,7 +187,7 @@ header{
 .rodape-div-2-coluna{
     display: flex;
     flex-direction: row; 
-    align-items: start;
+    align-items: center;
 }
 .rodape-div-2-coluna-img img{
     padding-top: 2px;
@@ -201,11 +201,11 @@ header{
 .rodape-div-2-coluna-text{
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    
     text-decoration: none;
 }
 .rodape-div-4-coluna-text a{
-    width: 50%;
+    width: 100%;
 }
 .rodape-div-5-coluna{
     padding-bottom: 60px;
@@ -251,11 +251,8 @@ img{
         width: calc(50% - 20px);
         height: fit-content;
     }
-    .rodape-div-2-coluna-text p{
-        font-size: 85%;
-    }
-    .rodape-div-2-coluna-img img{
-        width: 98%;
+    .rodape-div-2-coluna-text{
+        font-size: 17px;
     }
     header{
         position: fixed;
