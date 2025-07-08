@@ -14,22 +14,27 @@ main{
     border-radius: 20px;
     margin-top: 7.5em;
 }
-.ecomp{
+.ecomp, .sonorizacao, .seguranca{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.ecompimg{
+.automacao, .rede, .informatica{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.ecompimg, .automacaoimg, .sonorizacaoimg, .redeimg, .segurancaimg, .informaticaimg{
     width: 50%;
     height: auto;
     display: flex;
 }
-.ecompimg img{
+.ecompimg img, .automacaoimg img, .sonorizacaoimg img, .redeimg img, .segurancaimg img, .informaticaimg img{
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
-.ecomptext{
+.ecomptext, .automacaotext, .sonorizacaotext, .redetext, .segurancatext, .informaticatext{
     color: #2b2b2b;
     width: 50%;
     height: auto;
@@ -39,7 +44,7 @@ main{
     align-items: center;
     text-align: center;
 }
-.ecomptext button{
+.ecomptext button, .automacaotext button, .sonorizacaotext button, .redetext button, .segurancatext button, .informaticatext button{
     background-color: #2b2b2b;
     border-radius: 25px;
     color: azure;
@@ -49,45 +54,7 @@ main{
     margin: auto;
     text-decoration: none;
 }
-.ecomptext button:hover{
-    color: black;
-    background-color: #F27244;
-}
-.automacao{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
-.automacaoimg{
-    width: 50%;
-    height: auto;
-    display: flex;
-}
-.automacaoimg img{
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-}
-.automacaotext{
-    color: #2b2b2b;
-    width: 50%;
-    height: auto;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    font-size: 24px;
-    text-align: center;
-}
-.automacaotext button{
-    background-color: #2b2b2b;
-    border-radius: 25px;
-    color: azure;
-    cursor: pointer;
-    border: none;
-    width: auto;
-    margin: auto;
-}
-.automacaotext button:hover{
+.ecomptext button:hover, .automacaotext button:hover, .sonorizacaotext button:hover, .redetext button:hover, .segurancatext button:hover, .informaticatext button:hover{
     color: black;
     background-color: #F27244;
 }
