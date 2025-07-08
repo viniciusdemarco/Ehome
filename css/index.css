@@ -83,15 +83,15 @@ main{
         margin-top: 7.5em;
         width: 98%;
     }
-    .ecomp, .automacao {
+    .ecomp, .automacao, .sonorizacao, .rede, .seguranca, .informatica {
         flex-direction: column;
     }
-    .ecomptext, .automacaotext{
+    .ecomptext, .automacaotext, .sonorizacaotext, .redetext, .segurancatext, .informaticatext{
         width: 100%;
         display: flex;
         font-size: 18px;
     }
-    .ecompimg, .automacaoimg{
+    .ecompimg, .automacaoimg, .sonorizacaoimg, .redeimg, .segurancaimg, .informaticaimg{
         width: 100%;
         height: auto;
     }
